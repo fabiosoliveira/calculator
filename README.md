@@ -26,23 +26,23 @@ Este é um projeto de uma calculadora básica escrita em Go. Ele suporta operaç
 Para compilar o projeto, execute:
 
 ```sh
-go build -o main.exe cmd/cli/main.go
+go build -o calc.exe cmd/cli/main.go
 ```
 
 ### Execução
 Para executar a calculadora, use o comando:
 
 ```sh
-./main.exe <method> <parametro1> <parametro2>
+./calc.exe <method> <parametro1> <parametro2>
 ```
 
 #### Exemplos:
 
 ```sh
-./main.exe sum 2 3
-./main.exe sub 5 2
-./main.exe mult 3 4
-./main.exe div 10 2
+./calc.exe sum 2 3
+./calc.exe sub 5 2
+./calc.exe mult 3 4
+./calc.exe div 10 2
 ```
 
 ## Testes
