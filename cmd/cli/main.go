@@ -23,16 +23,6 @@ func main() {
 		panic("Os parâmetros precisam ser números válidos")
 	}
 
-	switch args[0] {
-	case "sum":
-		fmt.Println(math.Add(arg1, arg2))
-	case "sub":
-		fmt.Println(math.Subtract(arg1, arg2))
-	case "div":
-		fmt.Println(math.Divide(arg1, arg2))
-	case "mult":
-		fmt.Println(math.Multiply(arg1, arg2))
-	default:
-		panic(error)
-	}
+	result := math.Calculator(args[0], arg1, arg2)
+	fmt.Println(result)
 }
